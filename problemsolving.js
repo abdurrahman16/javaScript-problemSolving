@@ -36,18 +36,38 @@
 // }
 
 
-function leapYear (year) 
+// function leapYear (year) 
+// {
+//     if((year%4==0) &&(year%400==0))
+//      {
+//         let result= 'leap year';
+//     }
+//     else{
+//         result = 'NL';
+//     }
+
+//     return result;
+// }
+
+// let r= leapYear(4);
+// console.log(r);
+
+// let sum=1;
+
+// for ( let i=1; i<=10; i++)
+// {
+//      sum=sum*i;
+//     console.log(i,sum);
+// }
+
+
+function factorial (n){
+    let fact=1;
+    for ( let i=1; i<=n; i++)
 {
-    if((year%4==0) &&(year%400==0))
-     {
-        let result= 'leap year';
-    }
-    else{
-        result = 'NL';
-    }
-
-    return result;
+     fact=fact*i;  
 }
-
-let r= leapYear(4);
-console.log(r);
+return fact;
+}
+let z= factorial(5);
+console.log(z);
